@@ -18,8 +18,10 @@
         <span class="p-2 text-dark"><%= link_to "Про нас", about_path %></span>
         <span class="p-2 text-dark"><%= link_to "Добавить статью", new_post_path %></span>
       </nav>
-      <span class="btn btn-outline-primary"><%= link_to "Зарегистрироваться" %></span>
-      <span class="btn btn-outline-primary"><%= link_to "Войти" %></span>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <span class="btn btn-outline-primary"><%= link_to "Зарегистрироваться" %></span>
+        <span class="btn btn-outline-primary"><%= link_to "Войти" %></span>
+      </nav>
     </div>
     <div class="container">
       <%= yield %>
